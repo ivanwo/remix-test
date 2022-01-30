@@ -53,4 +53,5 @@ jobs:
           app-name: 'remix-github'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2A659FD4B8E45D988765F2EB531290F }}
+          folder: build
           package: .
